@@ -9,6 +9,7 @@ gem 'rake'
 gem 'thin'
 gem 'shotgun'
 gem 'pry'
+gem 'sanitize', '~> 5.2', '>= 5.2.1'
 gem 'require_all'
 
 group :test do
