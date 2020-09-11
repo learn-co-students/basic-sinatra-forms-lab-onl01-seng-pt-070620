@@ -6,7 +6,13 @@
  </head>
  <body>
  
-
+<h1>Team Name: <%= Sanitize.fragment(@team) %></h1>
+<h2>Coach: <%= Sanitize.fragment(@coach) %></h2>
+<h2>Point Guard: <%= Sanitize.fragment(@pg) %></h2>
+<h2>Shooting Guard: <%= Sanitize.fragment(@sg) %></h2>
+<h2>Small Forward: <%= Sanitize.fragment(@sf) %></h2>
+<h2>Power Forward: <%= Sanitize.fragment(@pf) %></h2>
+<h2>Center: <%= Sanitize.fragment(@center) %></h2>
 
  </body>
 </html>
