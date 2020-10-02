@@ -4,20 +4,20 @@ require 'pry'
 class App < Sinatra::Base
 
     get '/newteam' do
-        binding.pry
         erb :newteam
     end
 
     post '/team' do
-        binding.pry
+        # binding.pry
         @name = params[:name]
+        # binding.pry
         @coach = params[:coach]
         @pg = params[:pg]
         @sg = params[:sg]
         @sf = params[:sf]
         @pf = params[:pf]
-        @center = params[:c]
-        binding.pry
+        @c = params[:c]
+        # binding.pry
         erb :team
     end
 
